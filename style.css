@@ -26,6 +26,14 @@ margin: 0;}
 margin: 0 auto;
 padding: 0 20px;}
 
+.page-title {
+  font-size: 60px;
+  font-weight: 900;
+  text-aling: center;
+  margin-top: 40px;
+  font-family: Arial, sans-serif;
+}
+
 /* Header */
 .text 
 { 
@@ -209,6 +217,7 @@ text-align: center;}
 .gallery-grid 
 
 {grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));}}
+
 
 
 
