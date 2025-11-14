@@ -94,7 +94,8 @@ box-shadow: var(--shadow);
 overflow: hidden;}
 
 .pad 
-{padding: 24px;}
+{padding: 24px;
+color: #FFFFE0}
 
 /* Gallery */
 .gallery h2 
@@ -195,4 +196,5 @@ text-align: center;}
 .nav 
 {justify-content: center;}
 .gallery-grid 
+
 {grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));}}
