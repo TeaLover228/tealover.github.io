@@ -64,12 +64,12 @@ display: inline-block;}
 font-weight: 700;
 color: var(--text-primary);}
 
-.text 
+.nav 
 {display: flex;
 gap: 20px;
 flex-wrap: wrap;}
 
-.text a 
+.nav a 
 {text-decoration: none;
 color: var(--text-secondary);
 font-weight: 500;
@@ -77,11 +77,11 @@ padding: 6px 12px;
 border-radius: var(--radius);
 transition: all 0.2s ease;}
 
-.text a:hover 
+.nav a:hover 
 {color: var(--accent);
 background-color: rgba(59, 130, 246, 0.1);}
 
-.text a.active 
+.nav a.active 
 {color: var(--accent);
 background-color: rgba(59, 130, 246, 0.1);}
 
