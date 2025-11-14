@@ -28,13 +28,15 @@ padding: 0 20px;}
 
 /* Header */
 .text 
-{font-size: 3em;
+{ 
+font-size: 3em;
 font-weight: bold;
 background: linear-gradient(90deg, #ff6b6b, #feca57, #1dd1a1, #5f27cd);
 background-size: 400%;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-animation: gradient 5s infinite linear;}
+animation: gradient 5s infinite linear;
+}
 
 
 @keyframes gradient {
@@ -214,5 +216,6 @@ text-align: center;}
 .gallery-grid 
 
 {grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));}}
+
 
 
