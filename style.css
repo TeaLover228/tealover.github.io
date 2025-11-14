@@ -36,23 +36,16 @@ background-size: 400%;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 animation: gradient 5s infinite linear;
-}
-
-
-@keyframes gradient {
-
-  0% { background-position: 0%; }
-
-  100% { background-position: 100%; }
-
-}
-.header 
-{display: flex;
+display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 20px 0;
 margin-bottom: 30px;
 border-bottom: 1px solid var(--border);}
+@keyframes gradient {
+0% { background-position: 0%; }
+100% { background-position: 100%; }}
+
 
 .brand 
 {display: flex;
@@ -216,6 +209,7 @@ text-align: center;}
 .gallery-grid 
 
 {grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));}}
+
 
 
 
